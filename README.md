@@ -17,7 +17,7 @@ ntp.py        # implement network time protocol
 
 ntp_time.py   # display time on oled
 
-![IMG_7127](https://user-images.githubusercontent.com/50828453/98871466-3d1cc000-2475-11eb-92de-4a715d32d396.JPG  | width=100)
+![IMG_7127](https://user-images.githubusercontent.com/50828453/98871466-3d1cc000-2475-11eb-92de-4a715d32d396.JPG  = 250x )
 
 scan_i2c.py   # tool
 
