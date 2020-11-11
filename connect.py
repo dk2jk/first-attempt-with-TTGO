@@ -3,7 +3,7 @@
 
 import network
 from time import sleep
-ssid="nichts ist geheim"
+ssid="YOUR WLAN SSID"
 sta_if = network.WLAN(network.STA_IF)
 
 def wlan_ein():   
@@ -11,7 +11,7 @@ def wlan_ein():
         sta_if.active(False)
         #sta_if.disconnect()
     sta_if.active(True)
-    sta_if.connect(ssid, "kabelloseverbindung-2") # 
+    sta_if.connect(ssid, "YOUR WLAN PASSWORD") # 
         
     sleep(.5)
     return sta_if.isconnected()
