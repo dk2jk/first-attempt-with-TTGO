@@ -16,6 +16,7 @@ ntp.py        # implement network time protocol
               #if you need change 'fritz.box' to other ntp-server
 
 ntp_time.py   # display time on oled
+https://github.com/dk2jk/first-attempt-with-TTGO/issues/2#issue-741113164
 
 pr_files.py    # copyy .py files to sdcard of TTGO
 
