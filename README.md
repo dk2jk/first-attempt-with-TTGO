@@ -5,7 +5,9 @@ boot.py
 
 connect.py     # try to connect to your local wlan
 
-main_uhr.py    # display a simple clock on oled , needs wlan , for autostart: rename to "main.py"
+main_uhr.py    # display a simple clock on oled , needs wlan , 
+
+               # for autostart: rename to "main.py"
 
 ntp.py 
 
