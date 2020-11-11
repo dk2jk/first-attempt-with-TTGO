@@ -26,6 +26,7 @@ ssd1306.py    # oled LIB
 timer.py      # Timer LIB
 
 display_sinus.py   # Display some graphics on oled
+![IMG_7126](https://user-images.githubusercontent.com/50828453/98871179-cb447680-2474-11eb-9fc5-ff693eea97e9.JPG)
 
 
 
