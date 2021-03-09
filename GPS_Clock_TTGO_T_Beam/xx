@@ -1,4 +1,4 @@
-<b>Anzeige von Uhzeit und Datum auf dem Oled -Display</b>
+Anzeige von Uhzeit und Datum auf dem Oled -Display
 
 Hardware: Modul "LilyGo T-Beam" mit ESP-32, NEO-6M-GPS, TTGO, und Oled an VCC,GND,Pin22,Pin21 
 
