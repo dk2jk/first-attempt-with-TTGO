@@ -1,1 +1,21 @@
+<b>Anzeige von Uhzeit und Datum auf dem Oled -Display</b>
 
+Hardware: Modul "LilyGo T-Beam" mit ESP-32, NEO-6M-GPS, TTGO, und Oled an VCC,GND,Pin22,Pin21 
+
+Display:
+      i2c = I2C(scl=Pin(22), sda=Pin(21), freq=100000)
+      oled = ssd1306.SSD1306_I2C( 128, 64, i2c, 0x3c )
+GPS ist an serieller Schnittstelle:
+      ser = UART(2, tx=12, rx=34)
+      ser.init(9600, bits=8, parity=None, stop=1)
+      
+Aus dem GPS-Datenstrom wird der Satz  "$GPRMC"
+herausgefiltert.
+z.B.: x= ['$GPRMC', '162914.00', 'A', '5128.97807', 'N', '00819.32146', 'E', '1.666', '', '090321', '', '', 'A*7A\r\n']
+                     tttttt.tt                                                             dddddd
+x[1] ist die Uhreit
+x[9] ist das Datum
+Der Rest ist Formatierung.
+
+-------------------
+03.2012 ,dk2jk
